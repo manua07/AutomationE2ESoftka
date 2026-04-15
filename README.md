@@ -15,15 +15,15 @@ Ejecución de los tests:
    
  - Importar el proyecto en IDE.
 
- - Navegar en el directorio del proyecto
-      cd AutomationSofka
+ - Navegar en el directorio del proyecto <br>
+      *cd AutomationSofka*
 
- - Antes de ejecutar las pruebas, utilizar el comando:
-    mvn clean install -U
-    mvn clean verify   
+ - Antes de ejecutar las pruebas, utilizar el comando:<br>
+    *mvn clean install -U* <br>
+    *mvn clean verify*   
 
- - Para ejecutar todas las pruebas se utiliza el siguiente comando:
-   	mvn test
+ - Para ejecutar todas las pruebas también se utiliza el siguiente comando: <br>
+   	*mvn test*
 
 - Primero, se ejecutaran las pruebas UI las cuales se hacen a través del navegador y se generan los reportes en la carpeta target:
   Ejemplo de reporte index.html
@@ -31,7 +31,7 @@ Ejecución de los tests:
 
   **Estos reportes continene: screenshots de las diferentes paginas y sus pasos, reporte final con estadisticas; estados de las ejecuciones, tiempos, escenarios, cobertura y mas datos que permiten análisis y toma de decisiones.**
 
-- Segundo, se ejecutaran las pruebas API las cuales se hacen a través de consola y generan los reportes en la carpeta target:
+- Segundo, se ejecutaran las pruebas API las cuales se hacen a través de consola y generan los reportes en la carpeta target: <br>
   Ejemplo de reporte karate-summary.html
   <img width="1778" height="865" alt="image" src="https://github.com/user-attachments/assets/0e6c8923-4b87-4963-add3-7b4a7efb5e42" />
   
